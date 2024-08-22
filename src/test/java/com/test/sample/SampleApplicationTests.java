@@ -15,7 +15,7 @@ class SampleApplicationTests {
 	void additionTest() {
 		Calculator calc = new Calculator();
 		int result = calc.add(2, 3);
-		assertEquals(6, result);  // 2 + 3 = 5 여야 테스트 통과
+		assertEquals(5, result);  // 2 + 3 = 5 여야 테스트 통과
 	}
 	
 	@Test
